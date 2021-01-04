@@ -1,0 +1,17 @@
+{
+  "name": "health-heb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Healthy", "Rabbit", "Postgres"],
+  "author": "HEB",
+  "license": "ISC",
+  "dependencies": {
+    "@cloudnative/health-connect": "^2.1.0",
+    "pg": "^8.5.1",
+    "amqplib": "^0.6.0"
+  },
+  "description": "Check availability of used services by HEB Applications"
+}
